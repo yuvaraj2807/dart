@@ -1,0 +1,32 @@
+void main(){
+  //Literals
+  //var iscool = true;
+  //int x=2;            //Here true,2,john,4.5 are the literals
+  //"john"
+  //  4.5;
+  
+  // Various ways to define string literals in dart
+  String s1 = 'Single';
+  String s2 = "double";
+  String s3 = 'It\'s easy'; // The \(escape character)which is used to identify that is single line
+  String s4 = "It's easy";
+  print(s1);
+  print(s2);
+  print(s3);
+  print(s4);
+  
+  //String interpolation : use ["my name is $name"] instead of ["my name is"+name]
+  String name = "Arun"; 
+  String message = "My name is " + name;
+  print(message);
+          // OR
+  String name1 = "Tharun"; 
+  print("My name is $name1");
+  print("The number of characters in string kervin is ${name.length}");
+
+  int l=20;
+  int b=10;
+  print("the sum of l and b is ${l+b}");
+  print("the sum of $l and $b is ${l+b}");
+}
+
