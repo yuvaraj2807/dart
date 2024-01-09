@@ -1,0 +1,31 @@
+void main(){
+  //Numbers : int
+  int score = 99;
+  var mark = 98;
+  print(score);
+  print(mark);
+  
+  //Numbers : double
+  double percentage = 99.9;
+  var percent = 99.9;
+  print(percentage);
+  print(percent);
+  
+  //Strings
+  String name = "ABC";
+  var char = "ABC";
+  print(name);
+  print(char);
+  
+  //Boolean
+  bool isvalid = true;
+  var isalive = false;
+  print(isvalid);
+  print(isalive);
+  
+  // hexvalue
+  int hexvalue = 0xEABCDEF;
+  double exponents = 1.42e5;
+  print(hexvalue);
+  print(exponents);
+}
