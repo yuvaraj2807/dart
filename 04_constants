@@ -1,0 +1,28 @@
+void main(){
+  //final keyword 
+  final cityname="Mumbai";
+  //cityname="chennai";
+  print(cityname);
+
+//final and constant values cannot be channged
+//Difference between Final and Const
+//FINAL variable can be set once and it is initialized when accessed
+//CONST varibale is implicitly final but it is a compile time constant i.e it is initialized during compilation
+
+  final String countryname='INDIA';
+  print(countryname);
+  
+  //const keyword
+  const PI = 3.14;
+  const double gravity = 9.8;
+  print(PI);
+  print(gravity);
+}
+
+//INSTANT variable can be final but cannot be constant
+
+class circle{
+  final color = "red";
+  static const PI = 3.14; //static should be must entered for constant while defining class
+  
+}
