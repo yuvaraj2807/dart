@@ -12,7 +12,8 @@ void main(){
   
   a<b? print("$a is smaller"):print("$b is smaller");
 
-  String name = "tom";
+//TERNAL OPERATOR  
+String name = "tom";
   String nameToprint = name?? "Guest User"; //Guest user is for null value
   print(nameToprint);
 }
